@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poof Piece - A Melbourned Based Queer Zine</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="nav.js" defer></script>
+</head>
+
+<div class="grid-container">
+
+    <header class="primary-header flex blog-header">
+
+        <div class="paper-rip-nav"></div>
+
+        <div class="poof-piece-logo">
+            <a href="/index.html">
+                <!-- aria-hidden makes sure screen readers dont read the duplicate text -->
+                <div class="text-layer-logo back-div red small-offset">
+                    <h3 aria-hidden="true">POOF</h3>
+                    <h3 aria-hidden="true">PIECE</h3>
+                </div>
+                <div class="text-layer-logo front-div purple">
+                    <h3>POOF</h3>
+                    <h3>PIECE</h3>
+                </div>
+            </a>
+        </div>
+
+        <!-- sr-only helps accessibility for screen readers -->
+        <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+            <span class="sr-only">Menu</span>
+            <i class="fa-solid fa-bars red back-div small-offset" id="nav-toggle-1"></i>
+            <i class="fa-solid fa-bars purple front-div" id="nav-toggle-2"></i>
+        </button>
+
+        <!-- Start of navbar -->
+        <nav>
+             
+            <ul class="primary-navigation flex" data-visible="false" id="primary-navigation">
+                <div class="paper-tear-effect not-visible"></div>
+                <li><a href="/index.html" class="navbar-link navbar-hover">Posts</a></li>
+                <li><a href="/gallery.html" class="navbar-link navbar-hover">Gallery</a></li>
+                <li><a href="#" class="navbar-link navbar-btn">Contribute</a></li>
+            </ul>
+ 
+        </nav>
+
+    </header>
+
+</div>
+
+<div class="nav-black-screen not-visible"></div>
+
+<body>
+
+    <div class="blog-post-image">
+        <div class="paper-rip-under-image"></div>
+    </div>
+
+    
+
+    <main>
+
+        <section class="blog-post-page">
+            <div class="blog-tag tag-selected">ART</div>
+            <h1>ARTICLE TITLE ARTICLE ARTICLE ARTICLE</h1>
+            <p class="blog-date">7 OCT 2022</p>
+            <div class="post-author flex">
+                <div class="author-image light-colour-border"></div>
+                <p class="author-name">Writer McGee</p>
+                <p>|</p>
+                <p class="author-name">@artist_socialmedia</p>
+            </div>
+
+            <article class="blog-content">
+                <h2>Subheading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus accumsan nunc, dictum fermentum augue. Maecenas consectetur lobortis dignissim. Cras in purus ultrices, cursus justo sed, posuere tortor. Nulla eget elit a augue blandit vulputate non nec sapien. Mauris tempor libero a quam faucibus scelerisque. Suspendisse non maximus est. Suspendisse in dolor ac urna imperdiet laoreet.
+                    <br><br>
+                    Proin varius feugiat dignissim. Nam efficitur, elit a pharetra consequat, justo enim feugiat arcu, sed dignissim nisi massa vitae dolor. Sed commodo in augue non bibendum. Ut ullamcorper tristique sem, a luctus tellus pulvinar non. Quisque eleifend libero at libero maximus, eget mollis nibh eleifend. Morbi nunc erat, pharetra eget bibendum eu, sodales ut elit. Vestibulum vehicula et odio at rhoncus. Donec tristique, velit dapibus feugiat varius, ligula arcu interdum ante, sit amet pharetra mauris arcu nec tortor. Pellentesque aliquam nibh quis nunc accumsan mattis. Aenean fringilla, sapien in efficitur feugiat, libero justo bibendum tortor, placerat feugiat sem ex vel mi. Pellentesque vel imperdiet justo. Nullam sagittis orci pretium consequat varius. Ut lacinia sit amet mauris ac dignissim. Cras luctus facilisis maximus. Aenean blandit cursus tempus. Vivamus a tincidunt quam
+                </p>
+
+                <div class="img-container">
+                    <div class="blog-post-img light-colour-border"></div>
+                </div>
+
+                <h2>Subheading</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus accumsan nunc, dictum fermentum augue. Maecenas consectetur lobortis dignissim. Cras in purus ultrices, cursus justo sed, posuere tortor. Nulla eget elit a augue blandit vulputate non nec sapien. Mauris tempor libero a quam faucibus scelerisque. Suspendisse non maximus est. Suspendisse in dolor ac urna imperdiet laoreet.
+                    <br><br>
+                    Proin varius feugiat dignissim. Nam efficitur, elit a pharetra consequat, justo enim feugiat arcu, sed dignissim nisi massa vitae dolor. Sed commodo in augue non bibendum. Ut ullamcorper tristique sem, a luctus tellus pulvinar non. Quisque eleifend libero at libero maximus, eget mollis nibh eleifend. Morbi nunc erat, pharetra eget bibendum eu, sodales ut elit. Vestibulum vehicula et odio at rhoncus. Donec tristique, velit dapibus feugiat varius, ligula arcu interdum ante, sit amet pharetra mauris arcu nec tortor. Pellentesque aliquam nibh quis nunc accumsan mattis. Aenean fringilla, sapien in efficitur feugiat, libero justo bibendum tortor, placerat feugiat sem ex vel mi. Pellentesque vel imperdiet justo. Nullam sagittis orci pretium consequat varius. Ut lacinia sit amet mauris ac dignissim. Cras luctus facilisis maximus. Aenean blandit cursus tempus. Vivamus a tincidunt quam
+                </p>
+                
+
+
+
+
+            </article>
+
+        </section>
+
+        
+
+    </main>
+
+</body>
+
+</html>
